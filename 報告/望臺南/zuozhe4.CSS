@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* 頁首樣式 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f99;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* 作者卡片區 */
+#authors-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.author-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.author-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author-card h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.author-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.author-card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.author-card a:hover {
+    text-decoration: underline;
+}
+
+/* 頁尾樣式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f99;
+    color: white;
+}
